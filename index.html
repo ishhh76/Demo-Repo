@@ -6,20 +6,45 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="index.js"></script>
     <link rel="stylesheet" href="index.css">
-    <title>Gruppövning</title>
+    <title>Cake Shop</title>
 </head>
 <body>
     <div class="main">
-        <h1>Lets get started with the exercise</h1> 
+        <h1>Cake shop</h1> 
         <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque architecto illum soluta. Praesentium ipsa veritatis nam a necessitatibus deserunt, voluptas magnam dolorem ut atque! Corrupti iure quos vero repudiandae itaque?</p>
-        <button class="btn" type="button" onclick="ButtonClick()"> Click to see a message </button>
-        <button class="btn btn-hide" type="button" onclick="Remove()">Remove</button>
-        <p id="show">Hello World !</p>
-        <ul id="hidden">
-            <li>Hello</li>
-            <li>World</li>
-            <li>How are you</li>
-        </ul>
+        <div class="wrapper">
+            <button class="btn" type="button" onclick="ButtonClick()"> Click to see a message </button>
+            <button class="btn btn-hide" type="button" onclick="Remove()">Remove</button>
+            <p id="show">Hello welcome to the Cake World !</p>
+            <ul id="hidden">
+                <li>Chocolate cake</li>
+                <li>Strawberry cake</li>
+                <li>Blackforest cake</li>
+            </ul>
+        </div>
     </div>
+    <ul class="columns">
+        <li class="column">
+            <img class="cake-img" src="https://upload.wikimedia.org/wikipedia/commons/d/df/Chocolate_cake.jpg">
+            <p class="cake-title">Chocalate Cake</p>
+            <div class="btn-box">
+                <button class="cake-btn" type="button" onclick="priceBtn1()">Add to cart</button>
+                <button class="cake-btn ghost-btn" type="button" onclick="ButtonC1()"> Cake details </button>
+            </div>
+            <p id="price1">10$</p>
+            <p id="detail1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </li>
+        <li class="column">
+            <img class="cake-img" src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Strawberry_Cake.JPG">
+            <p class="cake-title">Strawberry Cake</p>
+            <div class="btn-box">
+                <button class="cake-btn" type="button" onclick="priceBtn2()">Add to cart</button>
+                <button class="cake-btn ghost-btn" type="button" onclick="ButtonC2()"> Cake details </button>
+            </div>
+            <p id="price2" id="price-strawberry">11$</p>
+            <p id="detail2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </li>
+    </ul>
+
 </body>
 </html>
