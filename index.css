@@ -27,7 +27,7 @@ p {
 .btn {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 13px;
-    background-color: #ff6205;
+    background-color: #ff6205; 
     color: #ffffff;
     padding: 13px;
     border: 2px solid #ff6205;
@@ -36,7 +36,7 @@ p {
     margin-right: 10px;
     align-self: center;
     margin: 0px auto;
-outline: 0;
+outline: 0;;
 }
 
 .btn:focus {
@@ -81,11 +81,20 @@ outline: 0;
     list-style: none;
 }
 
+.columns2 {
+    width: 650px;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    list-style: none;
+}
 .column {
     width: 300px;
     margin-right: 20px;
     padding: 20px;
-    height:300px;
     text-align: center;
     background-color: white;
     border-radius: 10px;
@@ -130,4 +139,33 @@ outline: 0;
 }
 #detail2{
     display: none;
+}
+#price3{
+    display:none;
+   /* background-color: white;*/
+}
+#price4{
+    display:none;
+}
+#detail3{
+    display: none;
+}
+#detail4{
+    display: none;
+}
+#Rem1{
+    display: none;
+}
+#Rem2{
+    display: none;
+}
+#Rem3{
+    display: none;
+}
+#Rem4{
+    display: none;
+}
+footer {
+    height: 200px;
+    background-color: #000000;  
 }

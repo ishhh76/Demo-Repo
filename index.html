@@ -24,17 +24,18 @@
         </div>
     </div>
     <ul class="columns">
-        <li class="column">
+        <li class="column" id="col1">
             <img class="cake-img" src="https://upload.wikimedia.org/wikipedia/commons/d/df/Chocolate_cake.jpg">
-            <p class="cake-title">Chocalate Cake</p>
+            <p class="cake-title">Chocolate Cake</p>
             <div class="btn-box">
                 <button class="cake-btn" type="button" onclick="priceBtn1()">Add to cart</button>
                 <button class="cake-btn ghost-btn" type="button" onclick="ButtonC1()"> Cake details </button>
             </div>
             <p id="price1">10$</p>
             <p id="detail1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <button class="btn btn-hide" id="Rem1" onclick="priceBtn1R()">Remove from cart</button>
         </li>
-        <li class="column">
+        <li class="column" id="col2">
             <img class="cake-img" src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Strawberry_Cake.JPG">
             <p class="cake-title">Strawberry Cake</p>
             <div class="btn-box">
@@ -43,8 +44,41 @@
             </div>
             <p id="price2" id="price-strawberry">11$</p>
             <p id="detail2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <button class="btn btn-hide" id="Rem2" onclick="priceBtn2R()">Remove from cart</button>
         </li>
     </ul>
+    <ul class="columns2">
+        <li class="column" id="col3">
+                <img class="cake-img" src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Prague_Praha_2014_Holmstad_Cafe_Louvre_cheese_cake_ostekake.JPG">
+                <p class="cake-title">Vanilla CheeseCake</p>
+                <div class="btn-box">
+                    <button class="cake-btn" type="button" onclick="priceBtn3()">Add to cart</button>
+                    <button class="cake-btn ghost-btn" type="button" onclick="ButtonC3()"> Cake details </button>
+                </div>
+                <p id="price3">10$</p>
+                <p id="detail3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button class="btn btn-hide" id="Rem3" onclick="priceBtn3R()">Remove from cart</button>
+            </li>
+            <li class="column" id="col4">
+                <img class="cake-img" src="https://upload.wikimedia.org/wikipedia/commons/8/83/Blue_berry_cheese_cake.jpg">
+                <p class="cake-title">Blueberry Cake</p>
+                <div class="btn-box">
+                    <button class="cake-btn" type="button" onclick="priceBtn4()">Add to cart</button>
+                    <button class="cake-btn ghost-btn" type="button" onclick="ButtonC4()"> Cake details </button>
+                </div>
+                <p id="price4" id="price-strawberry">11$</p>
+                <p id="detail4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button class="btn btn-hide" id="Rem4" onclick="priceBtn4R()">Remove from cart</button>
+                </li>
+                </ul>
+
+
+
+<footer>
+    <p>
+    Copyright&copy;2019 Cake shop 
+</p>
+</footer>
 
 </body>
 </html>
